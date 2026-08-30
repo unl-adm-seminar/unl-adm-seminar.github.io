@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ADM Seminar — Prior talks</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Spectral:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [["\\(", "\\)"]],
+      displayMath: [["\\[", "\\]"]]
+    },
+    options: { skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"] }
+  };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow" id="s-when"></p>
+    <h1 id="s-name"></h1>
+    <p class="institution" id="s-institution"></p>
+    <p class="organizers" id="s-organizers"></p>
+
+    <nav class="tabs">
+      <a href="index.html">Schedule</a>
+      <a href="archive.html" aria-current="page">Prior talks</a>
+    </nav>
+  </header>
+
+  <div class="filter">
+    <input id="filter-input" type="search" placeholder="Search speakers, titles, abstracts" aria-label="Search prior talks">
+    <span class="count" id="filter-count"></span>
+  </div>
+
+  <main id="archive"></main>
+
+  <footer>
+    <p>Talks move here on August 1, at the start of each academic year. &copy; <span id="s-year"></span></p>
+  </footer>
+
+</div>
+
+<script src="talks.js"></script>
+<script src="assets/seminar.js"></script>
+</body>
+</html>

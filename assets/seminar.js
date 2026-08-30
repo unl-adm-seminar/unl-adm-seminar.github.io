@@ -113,7 +113,7 @@
     };
     set("s-when", escapeHtml(SEMINAR.when || ""));
     set("s-name", escapeHtml(SEMINAR.name || ""));
-    set("s-institution", escapeHtml(SEMINAR.institution || ""));
+    set("s-institution", SEMINAR.institution || "");
     set("s-blurb", SEMINAR.blurb || "");
 
     var orgs = (SEMINAR.organizers || []).map(function (o) {

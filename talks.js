@@ -38,7 +38,7 @@
 
 const SEMINAR = {
   name: "Applied Analysis and Data-Driven Mathematical Modeling (ADM)",
-  institution: "Department of Mathematics, University of Nebraska–Lincoln",
+  institution: "<a href=\"https://www.math.unl.edu\">Department of Mathematics</a>, University of Nebraska–Lincoln",
   when: "Thursdays at 2:30 pm CT · Avery 351 and Zoom",
   room: "Avery 351 and Zoom",
   time: "2:30 pm CT",

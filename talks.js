@@ -94,7 +94,14 @@ const TALKS = [
   { date: "2026-10-29", speaker: "TBA" },
   { date: "2026-11-05", speaker: "TBA" },
   { date: "2026-11-12", speaker: "TBA" },
-  { date: "2026-11-19", speaker: "TBA" },
+   
+  {
+    date: "2026-11-19",
+    speaker: "Yumeng Zhao",
+    affiliation: "UNL Civil & Env. Eng.",
+    mode: "In person"
+  },
+   
   // No seminar November 26 — Thanksgiving.
   { date: "2026-12-03", speaker: "TBA" },
   { date: "2026-12-10", speaker: "TBA" },

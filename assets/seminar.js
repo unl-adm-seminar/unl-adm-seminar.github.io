@@ -57,8 +57,8 @@
     var inner = t.url
       ? '<a href="' + escapeHtml(t.url) + '">' + name + "</a>"
       : name;
-    /* "(University of Virginia, Zoom)" — mode is optional. */
-    var paren = [t.affiliation, t.mode].filter(Boolean).map(escapeHtml).join(", ");
+    /* "(University of Virginia · Zoom)" — mode is optional. */
+    var paren = [t.affiliation, t.mode].filter(Boolean).map(escapeHtml).join(" · ");
     if (paren) {
       inner += ' <span class="affiliation">(' + paren + ")</span>";
     }

@@ -52,7 +52,8 @@ const SEMINAR = {
   // Optional extra line under the organizers. Delete the whole `links` block
   // if you don't want it. Add the Zoom link here once you have a stable one.
   links: [
-    { text: "Department of Mathematics", url: "https://www.math.unl.edu" }
+    { text: "Join on Zoom", url: "https://unl.zoom.us/j/94593853212" },
+    { text: "Subscribe to the mailing list", url: "https://mailman.nebraska.edu/mailman3/lists/math-adm-seminar@lists.unl.edu" }
   ]
 };
 
@@ -62,7 +63,7 @@ const TALKS = [
      Slots with no speaker yet are just { date, speaker: "TBA" }.
      Fill each one in as you confirm it.
 
-     `mode` is how the speaker delivers the talk: "In Person" or
+     `mode` is how the speaker delivers the talk: "In person" or
      "Zoom". It shows in the parentheses after the affiliation.
      ============================================================ */
 
@@ -83,7 +84,7 @@ const TALKS = [
     date: "2026-10-01",
     speaker: "Jiachao Liu",
     affiliation: "UNL Civil & Env. Eng.",
-    mode: "In Person"
+    mode: "In person"
     // title and abstract to come
   },
 
@@ -107,7 +108,7 @@ const TALKS = [
   //   speaker: "Jane Doe",
   //   url: "https://janedoe.example.edu",
   //   affiliation: "Purdue",
-  //   mode: "In Person",
+  //   mode: "In person",
   //   title: String.raw`A title, with math if you want: \(L^2\) estimates`,
   //   abstract: String.raw`First paragraph of the abstract.
   //
@@ -116,25 +117,107 @@ const TALKS = [
   // },
 
   /* ============================================================
-     PRIOR YEARS — these move to the Prior talks tab on their own.
-     Two samples so you can see how the archive looks; delete them
-     once you have real ones.
+     SPRING 2026 — on the Prior talks tab.
+     Abstracts say "To be added" for now; replace the text when
+     you have them.
      ============================================================ */
+
   {
-    date: "2026-04-16",
-    speaker: "David Ngo",
-    affiliation: "Purdue",
-    mode: "In Person",
-    title: "Sample archived talk: uncertainty quantification for inverse problems",
-    abstract: String.raw`This is placeholder text showing how an archived talk appears,
-with its abstract preserved and searchable from the Prior talks tab.`
+    date: "2026-04-23",
+    speaker: "Michael Parks",
+    affiliation: "Oak Ridge National Laboratory",
+    mode: "In person",
+    abstract: "To be added."
   },
   {
-    date: "2025-11-13",
-    speaker: "Grace Oduya",
-    affiliation: "UNL",
+    date: "2026-04-16",
+    speaker: "Shubhendu Bhardwaj",
+    affiliation: "Electr. & Comp. Eng., UNL",
+    mode: "In person",
+    title: "B-PENNs for the Forced Helmholtz Equation: Global-Local Modeling of Oscillatory Responses",
+    abstract: "To be added."
+  },
+  {
+    date: "2026-04-09",
+    speaker: "Jae Sung Park",
+    affiliation: "University of Nebraska-Lincoln",
+    mode: "In person",
+    title: "Fluid Dynamics from a Dynamical Systems Perspective",
+    abstract: "To be added."
+  },
+  {
+    date: "2026-04-02",
+    speaker: "Fernando Charro",
+    affiliation: "Wayne State University",
     mode: "Zoom",
-    title: "Sample archived talk: data assimilation for reaction-diffusion models",
-    abstract: String.raw`A second placeholder, here to show the year grouping.`
+    title: "Mean-value characterizations of polyharmonic functions",
+    abstract: "To be added."
+  },
+  {
+    date: "2026-03-26",
+    speaker: "Matt Jacobs",
+    affiliation: "University of California, Santa Barbara",
+    mode: "Zoom",
+    title: "Adversarial training and the generalized Wasserstein barycenter problem",
+    abstract: "To be added."
+  },
+  {
+    date: "2026-03-12",
+    speaker: "Sui Tang",
+    affiliation: "University of California, Santa Barbara",
+    mode: "Zoom",
+    title: "Sparse identification of nonlocal interaction kernels in nonlinear gradient flow equations",
+    abstract: "To be added."
+  },
+  {
+    date: "2026-03-05",
+    time: "3:30 pm CT",
+    speaker: "Subrahmanyam Pattamatta",
+    affiliation: "University of Hong Kong",
+    mode: "Zoom",
+    title: "Equilibrium Maps: Characterizing the complex and stochastic behavior of nanosystems subjected to proportional loading",
+    abstract: "To be added."
+  },
+  {
+    date: "2026-02-26",
+    speaker: "Yuhao Mu",
+    affiliation: "UNL",
+    mode: "In person",
+    title: "Consequences of Pressure Elimination for Nonlinear Fluid-Structure Interaction and PDE Data Assimilation",
+    abstract: "To be added."
+  },
+  {
+    date: "2026-02-19",
+    speaker: "Yuliya Gorb",
+    affiliation: "NSF",
+    mode: "In person",
+    title: "Explicit Corrector Results for Nonlinear Electrostatic-Elastic Systems",
+    abstract: "To be added."
+  },
+  {
+    date: "2026-02-05",
+    speaker: "Dejan Slepčev",
+    affiliation: "Carnegie Mellon University",
+    mode: "Zoom",
+    title: "Radon–Wasserstein gradient flows for sampling in high dimensions",
+    abstract: "To be added."
+  },
+  {
+    date: "2026-01-29",
+    time: "3:30 pm CT",
+    speaker: "Xingjie Li",
+    affiliation: "University of North Carolina, Charlotte",
+    mode: "Zoom",
+    title: "Robust Numerical Differentiation for Entropy-regularized Optimal Transport (EOT) with application to Shuffled Regression",
+    abstract: "To be added."
+  },
+  {
+    date: "2026-01-22",
+    time: "3:30 pm CT",
+    speaker: "Sasitharan Balasubramaniam",
+    affiliation: "School of Computing, UNL",
+    mode: "In person",
+    title: "Wet Neuromorphic Computing: A New Age for AI",
+    abstract: "To be added."
   }
 ];

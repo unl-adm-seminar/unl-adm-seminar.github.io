@@ -48,12 +48,6 @@ const SEMINAR = {
     { name: "Huijing Du" },
     { name: "Shiying Li" },
     { name: "Petronela Radu" }
-  ],
-  // Optional extra line under the organizers. Delete the whole `links` block
-  // if you don't want it. Add the Zoom link here once you have a stable one.
-  links: [
-    { text: "Join on Zoom", url: "https://unl.zoom.us/j/94593853212" },
-    { text: "Subscribe to the mailing list", url: "https://mailman.nebraska.edu/mailman3/lists/math-adm-seminar@lists.unl.edu" }
   ]
 };
 

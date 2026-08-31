@@ -234,5 +234,130 @@ I will present the analytical derivatives of EOT, provide a brief overview of nu
 In this seminar, we present the concept of bacterial Gene Regulatory-Artificial Neural Network (GR-ANN) by utilizing intelligence established from the natural gene regulation process. The concept is based on mapping a computing application to a subnetwork of the GR-ANN using a search algorithm, inspired from the Neural Architecture Search (NAS) used in AI and machine learning. We discuss the formation of the GR-ANN using temporal transcriptomic data as well as the search algorithm.
 
 The seminar will then discuss example computing applications of mathematical regression and classification. We also discuss examples in biotechnology where the GR-ANN is used to reconfigure and prevent biofilm formation that can lead to infections. The talk will also touch on the concept of microfluidic reservoir computing, where color encoded liquid signals are used as inputs to a readout layer for computing.`
+    },
+
+  /* ============================================================
+     FALL 2025 — on the Prior talks tab.
+     ============================================================ */
+
+  {
+    date: "2025-12-11",
+    speaker: "Ali A. Rezaei Lori",
+    affiliation: "UNL, Mech. & Mat. Eng.",
+    mode: "In person",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-12-04",
+    speaker: "Racine Ly",
+    affiliation: "AKADEMIYA 2063",
+    mode: "Zoom",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-11-20",
+    speaker: "James Scott",
+    affiliation: "Auburn University",
+    mode: "In person",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-11-06",
+    speaker: "Yanyu Xiao",
+    affiliation: "University of Cincinnati",
+    mode: "Zoom",
+    title: "How climate variations will impact the population dynamics of insects",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-10-30",
+    speaker: "Gustavo Rohde",
+    affiliation: "University of Virginia",
+    mode: "In person",
+    title: "Optimal Transport as a Transform: A Geometric Framework for Signal Representation",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-10-23",
+    speaker: "Ryan Goh",
+    affiliation: "Boston University",
+    mode: "Zoom",
+    title: "Fronts and patterns with parameter ramps",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-10-23",
+    time: "3:30 pm CT",
+    speaker: "Yaoying Fu",
+    affiliation: "Boston College",
+    mode: "Zoom",
+    title: "Toric geometry of ReLU neural networks",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-10-16",
+    speaker: "Nitesh Nama",
+    affiliation: "UNL, Mech. & Mat. Eng.",
+    mode: "In person",
+    title: "Computational modeling of acoustically-actuated fluid systems at microscales",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-10-16",
+    time: "3:30 pm CT",
+    speaker: "Prashant Jha",
+    affiliation: "South Dakota Mines",
+    mode: "In person",
+    title: "Residual and Agent-Based Corrections and Beyond for Reliable Neural Operators",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-10-09",
+    speaker: "Ruirui Liu",
+    affiliation: "UNMC",
+    mode: "In person",
+    title: "Integrated Spatial and Temporal Stochastic Model in Radiation Biology: Design, Implementation, and Application",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-10-02",
+    speaker: "Mikil Foss",
+    affiliation: "UNL",
+    mode: "In person",
+    title: "Poincaré Inequalities for Convolution-Type Operators",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-09-25",
+    speaker: "Yikun Bai",
+    affiliation: "Vanderbilt University",
+    mode: "Zoom",
+    title: "Computational Partial Gromov–Wasserstein Problems",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-09-18",
+    speaker: "Glenn Ledder",
+    affiliation: "UNL, Emeritus Professor",
+    mode: "In person",
+    title: "A Mathematical Model of Opinion Dynamics",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-09-11",
+    speaker: "Cornelia Mihăilă",
+    affiliation: "Saint Michael's College",
+    mode: "Zoom",
+    title: "A definition of fractional k-dimensional measure",
+    abstract: `To be added.`
+  },
+  {
+    date: "2025-09-04",
+    speaker: "Yu Jin",
+    affiliation: "UNL",
+    mode: "In person",
+    title: "Spatial dynamics of a pest population with stage-structure and control",
+    abstract: `To be added.`
   }
 ];
+

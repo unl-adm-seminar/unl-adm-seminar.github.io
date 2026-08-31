@@ -61,7 +61,7 @@ const TALKS = [
      "Zoom". It shows in the parentheses after the affiliation.
      ============================================================ */
 
-  { date: "2026-09-03", speaker: "TBA" },
+  { date: "2026-09-03", noSeminar: true, reason: "No seminar" },
 
   {
     date: "2026-09-10",
@@ -96,7 +96,7 @@ const TALKS = [
     mode: "In person"
   },
    
-  // No seminar November 26 — Thanksgiving.
+  { date: "2026-11-26", noSeminar: true, reason: "No seminar — Thanksgiving" },
   { date: "2026-12-03", speaker: "TBA" },
   { date: "2026-12-10", speaker: "TBA" },
 
@@ -123,12 +123,15 @@ const TALKS = [
      you have them.
      ============================================================ */
 
-  {
+   {
     date: "2026-04-23",
     speaker: "Michael Parks",
     affiliation: "Oak Ridge National Laboratory",
     mode: "In person",
-    abstract: "To be added."
+    title: "Fast Solvers for Sequences of Hermitian Positive Definite Linear Systems: Recycling Conjugate Gradients",
+    abstract: `We review a class of Krylov subspace methods for the fast solution of sequences of linear systems, which reduce the cost of solving the next system in the sequence by "recycling" information from previous systems. This talk focuses on solvers specialized for Hermitian positive definite (symmetric positive definite) linear systems. These methods are quite general and have been successfully applied to sequences of linear systems arising from many different application areas, including fracture modeling and topology optimization. Today, they are deployed in widely used software packages such as Trilinos, PETSc, and COMSOL Multiphysics.
+
+This presentation assumes no background on the audience with regard to linear solvers. The presentation will start with a review of basic iterative solvers for linear systems, followed by insights on convergence analysis that motivate "recycling" of Krylov subspaces. A brief discussion of the theory of the Krylov subspace recycling methods will be presented along with convergence analysis, followed by several examples and numerical experiments illustrating the effects of the approach.`
   },
   {
     date: "2026-04-16",

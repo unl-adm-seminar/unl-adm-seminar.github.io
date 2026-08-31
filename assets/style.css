@@ -16,7 +16,7 @@
   --serif: "Spectral", Georgia, "Times New Roman", serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 
-  --measure: 44rem;
+  --measure: 60rem;
 }
 
 * { box-sizing: border-box; }
@@ -82,7 +82,7 @@ a:focus-visible {
 .masthead .blurb {
   color: var(--ink-soft);
   margin: 0 0 0.9rem;
-  max-width: 38rem;
+  max-width: 52rem;
 }
 
 .masthead .organizers {

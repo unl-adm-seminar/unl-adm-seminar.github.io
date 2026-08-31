@@ -45,9 +45,9 @@ const SEMINAR = {
   blurb:
     "The seminar focuses on the broad world of modeling and data-driven science, investigated with mathematical analysis tools. It has a diverse audience and speakers, with faculty and students from mathematics, engineering, and computer science, as well as experts from national labs, industry, and government. Talks run from 2:30 to 3:20 pm.",
   organizers: [
-    { name: "Huijing Du", url: "https://math.unl.edu/huijing-du" },
-    { name: "Shiying Li", url: "https://math.unl.edu/shiying-li" },
-    { name: "Petronela Radu", url: "https://math.unl.edu/petronela-radu" }
+    { name: "Huijing Du", url: "https://math.unl.edu/person/huijing-du/" },
+    { name: "Shiying Li", url: "https://math.unl.edu/person/shiying-li/" },
+    { name: "Petronela Radu", url: "https://math.unl.edu/person/petronela-radu/" }
   ]
 };
 

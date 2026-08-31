@@ -43,11 +43,11 @@ const SEMINAR = {
   room: "Avery 351 and Zoom",
   time: "2:30 pm CT",
   blurb:
-    "The seminar focuses on the broad world of modeling and data-driven science, investigated with mathematical analysis tools. It has a diverse audience and speakers, with faculty and students from mathematics, engineering, and computer science, as well as experts at national labs, in industry, and in government. Talks run from 2:30 to 3:20 pm.",
+    "The seminar focuses on the broad world of modeling and data-driven science, investigated with mathematical analysis tools. It has a diverse audience and speakers, with faculty and students from mathematics, engineering, and computer science, as well as experts from national labs, industry, and government. Talks run from 2:30 to 3:20 pm.",
   organizers: [
-    { name: "Huijing Du" },
-    { name: "Shiying Li" },
-    { name: "Petronela Radu" }
+    { name: "Huijing Du", url: "https://math.unl.edu/huijing-du" },
+    { name: "Shiying Li", url: "https://math.unl.edu/shiying-li" },
+    { name: "Petronela Radu", url: "https://math.unl.edu/petronela-radu" }
   ]
 };
 

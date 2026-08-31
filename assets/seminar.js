@@ -67,6 +67,7 @@
 
   function whenLine(t, d) {
     var bits = [formatDate(d)];
+    if (t.noSeminar) return bits[0];
     var time = t.time || SEMINAR.time;
     var room = t.room || SEMINAR.room;
     if (time) bits.push(time);
@@ -78,6 +79,12 @@
     var d = parseDate(t.date);
     var h = '<article class="talk' + (isPast ? " past" : "") + '">';
     h += '<p class="talk-when">' + escapeHtml(whenLine(t, d)) + "</p>";
+
+    if (t.noSeminar) {
+      /* Week with no meeting: holiday, break, conference. */
+      h += '<p class="tba">' + escapeHtml(t.reason || "No seminar") + "</p>";
+      return h + "</article>";
+    }
 
     if (isTBA(t)) {
       /* Nothing known yet — one line, no "title to be announced" underneath. */
@@ -113,7 +120,7 @@
     };
     set("s-when", escapeHtml(SEMINAR.when || ""));
     set("s-name", escapeHtml(SEMINAR.name || ""));
-    set("s-institution", SEMINAR.institution || "");
+    set("s-institution", escapeHtml(SEMINAR.institution || ""));
     set("s-blurb", SEMINAR.blurb || "");
 
     var orgs = (SEMINAR.organizers || []).map(function (o) {
@@ -156,7 +163,9 @@
     }).sort(byDateAsc);
 
     /* Next talk banner */
-    var next = current.filter(function (t) { return parseDate(t.date) >= now; })[0];
+    var next = current.filter(function (t) {
+      return !t.noSeminar && parseDate(t.date) >= now;
+    })[0];
     var banner = document.getElementById("next-talk");
     if (banner && next) {
       var d = parseDate(next.date);

@@ -71,7 +71,13 @@ const TALKS = [
     // title and abstract to come
   },
 
-  { date: "2026-09-17", speaker: "TBA" },
+  {
+    date: "2026-09-17",
+    speaker: "Zhilan Feng",
+    affiliation: "National Science Foundation",
+    mode: "In person"
+  },
+
   { date: "2026-09-24", speaker: "TBA" },
 
   {
@@ -82,13 +88,44 @@ const TALKS = [
     // title and abstract to come
   },
 
-  { date: "2026-10-08", speaker: "TBA" },
-  { date: "2026-10-15", speaker: "TBA" },
-  { date: "2026-10-22", speaker: "TBA" },
-  { date: "2026-10-29", speaker: "TBA" },
-  { date: "2026-11-05", speaker: "TBA" },
-  { date: "2026-11-12", speaker: "TBA" },
-  { date: "2026-11-19", speaker: "TBA" },
+   { date: "2026-10-08", speaker: "TBA" },
+
+  {
+    date: "2026-10-15",
+    speaker: "Jiahui Chen",
+    affiliation: "University of Arkansas",
+    mode: "Zoom"
+  },
+  {
+    date: "2026-10-22",
+    speaker: "Adrian Muntean",
+    affiliation: "Karlstad University"
+  },
+  {
+    date: "2026-10-29",
+    speaker: "Zijia Gong",
+    affiliation: "UNL",
+    mode: "In person"
+  },
+  {
+    date: "2026-11-05",
+    speaker: "Massimiliano Pierobon",
+    affiliation: "School of Computing & CB3, UNL",
+    mode: "In person"
+  },
+  {
+    date: "2026-11-12",
+    speaker: "Siamak Nejati",
+    affiliation: "Chemical & Biomolecular Eng., UNL"
+  },
+
+ {
+    date: "2026-11-19",
+    speaker: "Yumeng Zhao",
+    affiliation: "UNL Civil & Env. Eng.",
+    mode: "In person"
+    // title and abstract to come
+  },
   { date: "2026-11-26", noSeminar: true, reason: "No seminar — Thanksgiving" },
   { date: "2026-12-03", speaker: "TBA" },
   { date: "2026-12-10", speaker: "TBA" },

@@ -96,10 +96,20 @@ const TALKS = [
     affiliation: "University of Arkansas",
     mode: "Zoom"
   },
-  {
+   {
     date: "2026-10-22",
     speaker: "Adrian Muntean",
-    affiliation: "Karlstad University"
+    affiliation: "Karlstad University",
+    title: "Phase Separation in a Three-Component Mixture with Distinct Aversions: Modeling, Analysis, and Simulation",
+    abstract: `We study a nonlinear coupled parabolic system with non-local drift terms that models, at the continuum level, inter-species interactions within a ternary mixture allowing for the evaporation of one component. In the absence of evaporation, the system reduces to the hydrodynamic limit of a stochastic Blume–Capel–type interacting particle system driven by Kawasaki dynamics. We are interested in understanding patterns formed while the active species separate in space. Similar dynamics arise in models of phase separation (morphology formation) relevant to organic solar cells, thin adhesive films, and related applications.
+
+We address the well-posedness of the system and then present numerical simulations that incorporate "from the top" evaporation. Using a finite-volume scheme, we construct approximations of weak solutions and demonstrate how evaporation influences the morphology's shape and connectivity during evolution. The scheme is proven to be convergent and stable with respect to model parameters.
+
+Numerical illustrations in 2D and 3D compare the continuum model with the underlying stochastic particle system, both with and without evaporation, providing encouraging evidence for the model's ability to reproduce realistic morphologies. While successful simulations have been obtained without evaporation regardless of the space dimension, new challenges emerge once the evaporation mechanism is activated in 3D.
+
+We close by pointing out several open mathematical questions, at different scales, that emerge from this framework.
+
+This talk reports on joint work with Rainey Lyons (University of Colorado Boulder, USA), Nicklas Jävergård and Andrea Muntean (Karlstad University, Sweden), and with Emilio N.M. Cirillo (Sapienza University of Rome, Italy).`
   },
   {
     date: "2026-10-29",

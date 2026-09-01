@@ -100,7 +100,7 @@ const TALKS = [
     date: "2026-10-22",
     speaker: "Adrian Muntean",
     affiliation: "Karlstad University",
-    mode: "In person",
+    mode: "Zoom",
     title: "Phase Separation in a Three-Component Mixture with Distinct Aversions: Modeling, Analysis, and Simulation",
     abstract: `We study a nonlinear coupled parabolic system with non-local drift terms that models, at the continuum level, inter-species interactions within a ternary mixture allowing for the evaporation of one component. In the absence of evaporation, the system reduces to the hydrodynamic limit of a stochastic Blume–Capel–type interacting particle system driven by Kawasaki dynamics. We are interested in understanding patterns formed while the active species separate in space. Similar dynamics arise in models of phase separation (morphology formation) relevant to organic solar cells, thin adhesive films, and related applications.
 

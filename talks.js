@@ -83,7 +83,7 @@ const TALKS = [
   {
     date: "2026-10-01",
     speaker: "Jiachao Liu",
-    affiliation: "UNL Civil & Env. Eng.",
+    affiliation: "Civil & Env. Eng., UNL",
     mode: "In person"
     // title and abstract to come
   },
@@ -122,7 +122,7 @@ const TALKS = [
  {
     date: "2026-11-19",
     speaker: "Yumeng Zhao",
-    affiliation: "UNL Civil & Env. Eng.",
+    affiliation: "Civil & Env. Eng., UNL",
     mode: "In person"
     // title and abstract to come
   },

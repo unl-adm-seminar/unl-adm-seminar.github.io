@@ -42,10 +42,13 @@ const SEMINAR = {
   when: "Thursdays at 2:30 pm CT · Avery 351 and Zoom",
   room: "Avery 351 and Zoom",
   time: "2:30 pm CT",
-  blurb:
+  /*blurb:
     "The seminar focuses on the broad world of modeling and data-driven science, investigated with mathematical analysis tools. Its audience and speakers include faculty and students from mathematics, data science, engineering, and computer science, as well as experts from national labs, industry, and government. Talks run from 2:30 to 3:20 pm.",
-     /*\n\nYou may subscribe to the seminar mailing list via the following link:
+     \n\nYou may subscribe to the seminar mailing list via the following link:
 <a href=\"https://mailman.nebraska.edu/mailman3/lists/math-adm-seminar@lists.unl.edu\">Subscribe here</a>",*/
+  blurb: `The seminar focuses on the broad world of modeling and data-driven science, investigated with mathematical analysis tools. Its audience and speakers include faculty and students from mathematics, data science, engineering, and computer science, as well as experts from national labs, industry, and government. Talks run from 2:30 to 3:20 pm.
+
+You may subscribe to the seminar mailing list via the following link: <a href="https://mailman.nebraska.edu/mailman3/lists/math-adm-seminar@lists.unl.edu">Subscribe here</a>`, 
   organizers: [
     { name: "Huijing Du", url: "https://math.unl.edu/person/huijing-du/" },
     { name: "Shiying Li", url: "https://math.unl.edu/person/shiying-li/" },

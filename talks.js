@@ -145,7 +145,6 @@ This talk reports on joint work with Rainey Lyons (University of Colorado Boulde
   },
   { date: "2026-11-26", noSeminar: true, reason: "No seminar — Thanksgiving" },
   { date: "2026-12-03", speaker: "TBA" },
-  { date: "2026-12-10", speaker: "TBA" },
 
   /* ============================================================
      A FILLED-IN TALK LOOKS LIKE THIS. Copy it when you have the

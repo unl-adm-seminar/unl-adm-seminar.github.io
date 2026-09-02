@@ -88,7 +88,12 @@ const TALKS = [
     // title and abstract to come
   },
 
-   { date: "2026-10-08", speaker: "TBA" },
+  {
+    date: "2026-10-08",
+    speaker: "Hongzhi Guo",
+    affiliation: "School of Computing, UNL",
+    mode: "In person"
+  },
 
   {
     date: "2026-10-15",

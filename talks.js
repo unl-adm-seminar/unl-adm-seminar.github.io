@@ -72,8 +72,9 @@ const TALKS = [
     date: "2026-09-10",
     speaker: "Ivan Medri",
     affiliation: "University of Virginia",
-    mode: "Zoom"
-    // title and abstract to come
+    mode: "Zoom",
+    title: "Optimal Transport as a Transform for Scalar Conservation Laws",
+    abstract: `We will view one-dimensional optimal transport as a nonlinear change of variables for scalar conservation laws. Motivated by the role of Fourier analysis in linear PDEs, we interpret optimal transport as a transform that reveals low-dimensional structures in transport-dominated dynamics. We show that, for one-dimensional conservation laws, a small number of transport-based modes can accurately describe the solution dynamics. This perspective offers a harmonic-analysis viewpoint on optimal transport and suggests new tools for analysis, approximation, and reduced-order modeling of PDEs.` 
   },
 
   {

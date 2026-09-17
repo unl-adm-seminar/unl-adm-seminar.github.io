@@ -86,7 +86,12 @@ const TALKS = [
     abstract: "<strong>Background:</strong> Newly emerging RNA viruses become genetically diverse not only via mutation, recombination, and reassortment, but also error-prone replication and limited correction capability. As SARS-CoV-2 became endemic in the human population, it evolved in response to changing conditions. <strong>Methods:</strong> We developed age- and variant-stratified SEIR models to elucidate means by which some of the variants that arose during the COVID-19 pandemic replaced others. We evaluated increased reproduction numbers and decreased generation times or cross-immunity when Delta replaced Alpha and was, in turn, replaced by Omicron. We also simulated an otherwise similar age- and location-stratified model with and without vaccination to explain why infections did not increase as Delta replaced Alpha. <strong>Findings:</strong> Delta may have had a shorter generation time than Alpha, by virtue of infecting upper versus lower respiratory tract cells. It may also have had a greater reproduction number, but neither enabled it to increase when it first arose. Simulations of our age- and location-stratified model, together with subpopulation contributions to the metapopulation reproduction number, indicate that the vaccination of healthcare and other essential workers delayed the increase in infections with Delta. As most hosts were immune when Omicron arose, immune escape almost certainly is the primary means by which it replaced Delta. And similarly for successive Omicron variants. <strong>Interpretation:</strong> Had those healthcare and other essential workers who were immunized during Q1 of 2021 been infected, Delta might have increased sooner by virtue of the greater than average contributions of working-aged people to its possibly greater metapopulation reproduction number."
   },
 
-  { date: "2026-09-24", speaker: "TBA" },
+  { 
+    date: "2026-09-24", 
+    speaker: "Zijia Gong",
+    affiliation: "UNL",
+    mode: "In person"
+  },
 
   {
     date: "2026-10-01",
@@ -98,8 +103,8 @@ const TALKS = [
 
   {
     date: "2026-10-08",
-    speaker: "Hongzhi Guo",
-    affiliation: "School of Computing, UNL",
+    speaker: "Glenn Ledder",
+    affiliation: "Math, UNL",
     mode: "In person"
   },
 
@@ -127,8 +132,8 @@ This talk reports on joint work with Rainey Lyons (University of Colorado Boulde
   },
   {
     date: "2026-10-29",
-    speaker: "Zijia Gong",
-    affiliation: "UNL",
+    speaker: "Hongzhi Guo",
+    affiliation: "School of Computing, UNL",
     mode: "In person"
   },
   {

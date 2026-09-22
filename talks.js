@@ -90,7 +90,10 @@ const TALKS = [
     date: "2026-09-24", 
     speaker: "Zijia Gong",
     affiliation: "UNL",
-    mode: "In person"
+    mode: "In person",
+    title:"Parameter identification in a parabolic diffusion PDE",
+    abstract: "We present a computational framework for solving inverse problems in partial differential equations (PDEs). The objective is to recover unknown coefficients in a parabolic diffusion equation. To achieve this, optimization-based approaches are used to minimize regularized Energy Least Squares (ELS) and Output Least Squares (OLS) objective functionals. Adjoint methods are used to estimate the gradient and Hessian of the objective functionals with respect to the coefficients. To avoid the expensive computation of the full Hessian matrix, the Newton-CG-like method is implemented, which relies only on the Hessian-vector products. We also present Galerkin discretizations for both the forward and inverse problems, including discrete formulations of the objective functionals, their gradients, and Hessian-vector products. Finally, we demonstrate the proposed framework through a numerical example."
+     
   },
 
   {

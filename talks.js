@@ -100,8 +100,9 @@ const TALKS = [
     date: "2026-10-01",
     speaker: "Jiachao Liu",
     affiliation: "Civil & Env. Eng., UNL",
-    mode: "In person"
-    // title and abstract to come
+    mode: "In person",
+    title: "Data-driven Digital Twins for Transportation Networks: Learning, Prediction and Optimization",
+   abstract: "This talk will introduce a data-driven digital twin framework for transportation networks that integrates heterogeneous mobility data with network models to represent complex, large-scale transportation systems. The digital twin is developed across three connected dimensions—physical, operational, and behavioral—to capture network traffic dynamics, system controls, and traveler responses. The talk will discuss how learning methods and AI techniques can use incomplete real-world observations to improve these models, and how the resulting digital twins can support prediction, what-if analysis, and optimization for system-level decision-making."
   },
 
   {

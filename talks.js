@@ -102,14 +102,16 @@ const TALKS = [
     affiliation: "Civil & Env. Eng., UNL",
     mode: "Zoom",
     title: "Data-driven Digital Twins for Transportation Networks: Learning, Prediction and Optimization",
-   abstract: "This talk will introduce a data-driven digital twin framework for transportation networks that integrates heterogeneous mobility data with network models to represent complex, large-scale transportation systems. The digital twin is developed across three connected dimensions—physical, operational, and behavioral—to capture network traffic dynamics, system controls, and traveler responses. The talk will discuss how learning methods and AI techniques can use incomplete real-world observations to improve these models, and how the resulting digital twins can support prediction, what-if analysis, and optimization for system-level decision-making."
+    abstract: "This talk will introduce a data-driven digital twin framework for transportation networks that integrates heterogeneous mobility data with network models to represent complex, large-scale transportation systems. The digital twin is developed across three connected dimensions—physical, operational, and behavioral—to capture network traffic dynamics, system controls, and traveler responses. The talk will discuss how learning methods and AI techniques can use incomplete real-world observations to improve these models, and how the resulting digital twins can support prediction, what-if analysis, and optimization for system-level decision-making."
   },
 
   {
     date: "2026-10-08",
     speaker: "Glenn Ledder",
     affiliation: "Math, UNL",
-    mode: "In person"
+    mode: "In person",
+    title: "The Impact of Vaccine Unwillingness on Measles Incidence",
+    abstract: "The United States has been almost completely free of measles for decades because of vaccination mandates.  However, anti-vaccination sentiment and government relaxing of mandates has led to a very small resurgence of measles.  As more government entities eliminate vaccine mandates, vaccine unwillingness can be expected to lead to more cases of measles.  How bad can things get?  Better to do the experiment in a model than in reality.  We develop a simple compartment model for measles, incorporating vaccine unwillingness into the model.  We then look at a worst case scenario and some less dire ones."
   },
 
   {

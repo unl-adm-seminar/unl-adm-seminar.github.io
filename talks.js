@@ -118,7 +118,9 @@ const TALKS = [
     date: "2026-10-15",
     speaker: "Jiahui Chen",
     affiliation: "University of Arkansas",
-    mode: "Zoom"
+    mode: "Zoom",
+    title: "Differential Operators and Topological Data Analysis in Biomolecular Applications",
+    abstract: "This talk examines recent advances in applying differential operators and topological data analysis to biological systems, with an emphasis on de Rham–Hodge theory and its multiscale framework for filtration-based evolving manifolds. While the current evolutionary de Rham–Hodge approach is readily applicable to closed manifolds, particular attention is paid to compact manifolds with two-dimensional boundaries, where careful boundary condition treatments on differential forms are required to preserve key topological properties. We will also discuss the method’s relevance to SARS-CoV-2 research, protein-protein interactions, and additional mathematical developments in biomolecular contexts, if time permits."
   },
    {
     date: "2026-10-22",

@@ -142,7 +142,9 @@ This talk reports on joint work with Rainey Lyons (University of Colorado Boulde
     date: "2026-10-29",
     speaker: "Hongzhi Guo",
     affiliation: "School of Computing, UNL",
-    mode: "In person"
+    mode: "In person",
+    title: "Topology-Informed Semantic Error Detection and Correction in Communication Systems",
+    abstract: "This talk explores how Topological Data Analysis (TDA) can serve as a rigorous mathematical foundation for semantic communication. By treating meaning as a form of topological structure, we introduce TopoCode, a learning-free coding framework that detects and corrects communication errors using persistent homology rather than bit-level redundancy. The method quantifies structural distortion through Wasserstein distances between persistence diagrams and enables topology-preserving recovery even in low-SNR and noisy communication scenarios. This presentation introduces the principles of semantic coding, the role of topology as a shared knowledge base, and how topological metrics provide a new pathway to robust, modality-agnostic error detection and correction in communication systems."
   },
   {
     date: "2026-11-05",

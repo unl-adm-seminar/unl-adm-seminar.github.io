@@ -150,7 +150,9 @@ This talk reports on joint work with Rainey Lyons (University of Colorado Boulde
     date: "2026-11-05",
     speaker: "Massimiliano Pierobon",
     affiliation: "School of Computing & CB3, UNL",
-    mode: "In person"
+    mode: "In person",
+    title: "Information and Dynamics in Living Systems: Adaptive Sensing and Multiscale Neural Differential Equations",
+   abstract: "Living systems acquire, exchange, and act on information through physical processes whose significance depends on internal state and environmental context. Understanding these processes requires mathematical tools connecting communication, biological function, and dynamics. This talk will introduce our research on information flow in biological and biochemical systems, combining information theory, mathematical analysis, and data-driven modeling. First, we will examine subjective information: the additional useful information obtained when a system adapts its sensing strategy to its internal state. Computational and analytically tractable models of chemotactic organisms seeking essential nutrients reveal how finite sensing resources and internal needs shape information acquisition, allowing adaptive strategies to improve growth or expected reward despite acquiring less total information. To understand how such internal states evolve, we will then turn to learning the coupled dynamics of biological processes. We will present tri-scale neural ordinary differential equations for continuous-time modeling of multi-omics dynamics, where widely separated timescales create stiffness that complicates learning and numerical integration. We will discuss the hierarchical architecture, constrained damping, stability analysis, and evaluation on biological datasets, including computational drug-repurposing candidate prioritization. The talk will conclude with emerging questions in neuroscience and emotionally aware AI, exploring how models of evolving internal states might inform physiological signal interpretation and human–AI interaction."
   },
   {
     date: "2026-11-12",

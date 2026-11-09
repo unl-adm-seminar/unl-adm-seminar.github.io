@@ -158,7 +158,10 @@ This talk reports on joint work with Rainey Lyons (University of Colorado Boulde
     date: "2026-11-12",
     speaker: "Siamak Nejati",
     affiliation: "Chemical & Biomolecular Eng., UNL",
-    mode: "In person"
+    mode: "In person",
+   title:"Bottom-up and Dry Approaches to Macromolecular Assembly: Synthesis, Integration, and Applications",
+   abstract:"Macromolecules, natural or synthetic polymers, are omnipresent in our lives. In most cases, polymers can be found as carbonaceous, light, and flexible materials that can be easily tailored to carry the desired chemical functional groups. This versatility has been the main driver for the advancement of macromolecular science. Along these lines, over the last two decades, many efforts have been devoted to developing pathways to the solvent-free synthesis of polymers. Herein, I present two solvent-free approaches to synthesizing and applying stoichiometric macromolecules as thin films. For both approaches, namely the initiated and oxidative Chemical Vapor Deposition (iCVD and oCVD), the adsorption of the monomers plays a key role. As a result, the polymer growth and properties can be tuned by adjusting the surface availability of the reactants. In this presentation, following a brief introduction, I demonstrate how iCVD and oCVD can be utilized to synthesize and integrate polymeric materials in-situ. I will highlight the exceptional coating resolution that can be achieved through these methods. Then, I will shed light on an unexplored dimension that allows for the fine-tuning of materials properties. In the end, I will share the opportunities for the growth and synthesis of well-defined interfaces with the designed and programmable architectures."
+     
   },
 
  {
